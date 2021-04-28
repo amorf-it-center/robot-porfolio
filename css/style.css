@@ -1,0 +1,411 @@
+body{
+    font-family:system-ui ;
+}
+p{
+    font-size: 19px;
+    text-align: start;
+    line-height: 1.97rem;
+    font-weight: 200;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.gic{
+    width: 16px;
+    height: 119px;
+    background-color: #B5DFDF;
+}
+img{
+    width: 100%;
+}
+
+h1{
+    text-align: left;
+    line-height: 1;
+    margin-bottom: 15px;
+}
+h2{
+    font-size: 3rem;
+    padding-bottom: 20px;
+}
+h4{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.top-bottom{
+    padding: 70px 0;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+.hero-image {
+    background-image: url("/assets/images/CoverStory_robots.jpg");
+    background-color: #cccccc;
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .hero-text {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    color: white;
+    padding: 0 20px;
+  }
+
+  .work{
+      display: flex;
+      height: 33rem;
+      position: relative;
+  }
+
+  .work .future-image{
+      width: calc((1140px / 2) / 3);
+      /* height: calc((1140px / 2) / 3); */
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
+  .work .image-1{
+      background-image: url(/assets/images/1-1-1.jpg);
+  }
+
+.work-section{
+    position: relative;
+}
+.work-section::before{
+    content: '';
+    background-color: #1A1A1A;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.work-section::after{
+    content: '';
+    background-color: #B5DFDF;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.work-section-content{
+    width: 50%;
+}
+.work-section-left-side,
+.work-section-right-side {
+      position: relative;
+}
+.work-section-right-side img {
+    width: 15%;
+}
+.work-section-left-side h2{
+    color: white;
+    font-weight: 400;
+    font-size: 30px;
+    padding: 0;
+}
+.work-section-left-side p {
+    color: white;
+    font-style: italic;
+    font-size: 16px;
+}
+.work-section-title-wrapper{
+    padding: 30px 0;
+}
+.work-section-image-wrapper{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.work-section-image-wrapper.left-side-wrapper{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-25%);
+    justify-content: flex-end;
+
+}
+.work-section-image-wrapper.right-side-wrapper{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-25%);
+}
+.work-section-image-wrapper .work-section-image{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 33.33%; 
+    height: auto;
+    min-height: 150px;
+}
+
+.col-4{
+    flex: 33.3%;
+    padding: 0 15px;
+}
+.tree {
+    background-color: #B5DFDF;
+}
+.tree p {
+    top: 0;
+    left: 43%;
+    transform: translate(0%, 21%);
+    line-height: 40px;
+    text-align: justify;
+}
+.subtitle{
+    background-color: #AFA26F;
+    text-align: center;
+    height: 253px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.subtitle h2 {
+   position: absolute;
+   top: 0;
+   transform: translate(15%,40%);
+
+}
+.robot-img {
+    height: 253px;
+}
+.button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+.btn {
+    background-color: #B5DFDF;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+  }
+
+  .dark-background{
+      background-color:#333333 ;
+  }
+  .my-container-content svg path{
+      fill: #AFA26F;
+  }
+  svg{
+      width: 50px;
+  }
+  .my-container-content h4 {
+      color: #AFA26F;
+      font-size: 2rem;
+      padding-top: 25px;
+  }
+  .my-container-content p {
+      color: white;
+      margin: 30px 30px 1px 0;
+      font-weight: 300;
+  }
+  .row-content h2{
+     text-align: center;
+     color: #AFA26F;
+  }
+  .row-content p {
+      text-align: center;
+      padding-bottom: 70px;
+  }
+  .nkar{
+      background-image: url(/assets/images/1-1.jpg);
+      width: 100%;
+      height: 500px;
+      background-size: cover;
+  }
+  .nkar2{
+    background-image: url(/assets/images/2.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+}
+.nkar3{
+    background-image: url(/assets/images/3-3.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+}
+.black-background{
+    background-color: rgb(0, 0, 0);
+}
+.line{
+    background-color: #AFA26F;
+    width: 45px;
+    height: 15rem;
+}
+.line-text h2 {
+    color: rgb(250, 250, 250);
+    text-align: end;
+}
+.line-text p {
+    color: rgb(255, 255, 255);
+}
+.my-container svg path{
+    fill: #AFA26F;
+}
+.my-container svg{
+    width: 65px;
+}
+.row-line {
+    flex-flow: inherit;
+}
+.line-text {
+    padding: 0 0 0 60px;
+}
+
+.green-background{
+    background-color: #B5DFDF;
+}
+ 
+.row-artificial{
+    flex-flow: inherit;
+}
+ .artificial{
+     background-image: url(/assets/images/thinkstockphotos511283035100638943large.jpg);
+     width: 680px;
+     height: 852px;
+     background-position: right;
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+ .artificial-content{
+     background-color: #D5EDED;
+     width: 40%;
+     padding: 48px;
+ }
+ .artificial-content h2{
+     padding-bottom: 50px;
+    
+ }
+ .artificial-content p {
+     font-weight: 200;
+ }
+ .artificial-content .btn {
+     margin: 30px;
+ }
+ .triangel{
+     position: absolute;
+     width: 15rem;
+     -ms-transform: rotate(45deg);
+     -ms-transform-origin: 20% 40%;
+     transform: rotate( 90deg);
+     transform-origin: 111% 112%;
+ }
+ .ai{
+     padding-left: 44px;
+ }
+ .ai h4{
+     margin-top: 205px;
+     margin-bottom: 20px;
+ }
+ .ai p {
+     margin-bottom: 45px;
+ }
+.back{
+    background-image: url(/assets/images/180521robotfull.jpg);
+    background-size: cover;
+    width: 35rem;
+    height: 45rem;
+    background-position: center;
+}
+.blue-background{
+    background-color: #21354C;
+}
+.footer-icon{
+    color: rgb(250, 250, 250);
+    width: 25px;
+    text-align: center;
+}
+.footer p {
+    text-align: center;
+    color: white;
+    margin-bottom: 25px;
+}
+.footer{
+    text-align: center;
+}
+
+
+.footer-background{
+    background-color: lightblue;
+}
+.az{
+    background-color: lightgreen;
+}
+
+/* container media */
+@media (min-width:576px) {
+    .container { 
+        max-width: 540px
+    }
+}
+
+@media (min-width:768px) {
+    .container {
+        max-width: 720px
+    }
+}
+
+@media (min-width:992px) {
+    .container {
+        max-width: 960px
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        max-width: 1140px
+    }
+}
+
+
+
+/* layout media */
+@media (max-width: 991.98px) { 
+    h1{
+        font-size: 5rem;
+    }
+    .hero-text{
+        transform: translate(-20%,-80%);
+    }
+ }
+
+@media (min-width: 992px) { 
+    h1{
+        font-size: 6rem;
+    }
+    .hero-text{
+        transform: translate(0,-80%);
+    }
+ }
+
+@media (min-width: 1200px) { 
+    h1{
+        font-size: 8rem;
+    }
+ }
